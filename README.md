@@ -9,14 +9,14 @@ en version 7 dans moins d'un an.
 C'est la première version majeure depuis le 17 octobre 1994 et pour
 ceux qui n'ont pas suivi l'évolution de ce langage, Perl7 pourrait
 passer pour un non-évenement. C'est au contraire un changement
-qui provoque à la fois la colère et l'antousiame.
+qui provoque à la fois la colère et l'enthousiasme.
 
 Le développement de Perl (et son schema de versions) a été contraint
 par plusieurs réalités importantes.
 
 La réécriture de Perl par sa communauté (Perl 6) a commencé au tout
 début du millénaire pour aboutir à un langage dynamique dans lequel
-perl n'est plus qu'une source d'inspiration parmis tant d'autres.
+perl n'est plus qu'une source d'inspiration parmi tant d'autres.
 Un peu comme ruby qui se voulait être un "perl made right" s'appelle
 bien "ruby", les membres de la communauté Perl6 ont finalement
 rebaptisé leur création "raku" (#rakulang) en octobre 2019.
@@ -26,24 +26,24 @@ continué à faire évoluer la version 5. 5.6.0 en mars 2000, 5.8.0 puis un long
 chantier de factorisation du code qui aboutira en décembre 2007: 5.10 est une
 version majeure: elle a facilité grandement la maintenance et l'intégration de
 nouveaux développeurs, elle était plus rapide et elle a introduit de nombreuses
-fonctionalités inspirée Perl6. Des lors, les p5p (perl5 porters, liste de
-diffusion sur laquelle se retrouve les développeurs de l'interpréteur perl)
-est capable de sortir une nouvelle version stable par an.
+fonctionnalités inspirées de Perl6. Dès lors, les p5p (perl5 porters, liste de
+diffusion sur laquelle se retrouvent les développeurs de l'interpréteur perl)
+sont capables de sortir une nouvelle version stable par an.
 
 Perl est très utilisé dans du code d'infrastructure (les autotools,
 texlive, git, les systèmes de paquets de debian et openbsd, ...), toutes ces
-nouvelles fonctionalités qui ont permis aux bonnes pratiques d'évoluer
+nouvelles fonctionnalités qui ont permis aux bonnes pratiques d'évoluer
 on du être ajoutées sans presque jamais casser la retrocompatibilité
 et ne pas introduire de collision avec le code des utilisateurs du langage.
-Ls dépreciations sont rares, ne concernent rien de central dans le langage
+Les dépreciations sont rares, ne concernent rien de central dans le langage
 et s'étalent sur plusieurs versions avec des warnings.
 
-Cela veut dire aussi qu'il faut ajouter de nouvelles fonctionalités avec précaution
-puisque ces fonctionalités devront être supportées ad vitam aeternam et peuvent
+Cela veut dire aussi qu'il faut ajouter de nouvelles fonctionnalités avec précaution
+puisque ces fonctionnalités devront être supportées ad vitam aeternam et peuvent
 rendre impossible des évolutions futures. Pour permettre de ménager la chèvre et le choux,
 d'évoluer sans casser, d'experimenter sans garantir, perl utilise des feature gards:
 des pragmas qui permettent d'activer et de désactiver finement toutes les nouvelles
-fonctionalités du langage.
+fonctionnalités du langage.
 
 Pour ajouter à la richesse du langage, perl s'avère assez souple pour s'étendre en C ou en
 Perl. Ainsi il existe sur le [CPAN](https://search.cpan.org) plusieurs frameworks

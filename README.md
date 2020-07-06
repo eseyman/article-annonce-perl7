@@ -89,4 +89,13 @@ conséquences imprévues d'un changement de version (lire
 "[Perl 7, not quite getting better yet](http://blogs.perl.org/users/leon_timmermans/2020/06/not-quite-getting-better-yet.html)") apparait mais il fallait que les choses évoluent
 et pour tout dire: Perl méritait un changement de version depuis bien longtemps.
 
+Pendant la Conference in the cloud, Curtis "Ovid" Poe a présenté Cor,
+une proposition de modèle d'objet qui viendrait s'intégrer dans la
+distribution standard de Perl, peut-être pas dans la première itération
+de Perl 7 mais dans une suivante. Ceci aurait l'avantage pour Perl qu'on
+n'aura plus à se demander lequel des nombreaux modèles utiliser ainsi
+que permettre l'utilisation de la programmation orienté objet sans
+demander l'installation de modules CPAN. La syntaxe de Cor (ainsi que
+son nom final) est en cours d'élaboration, travail mené par Ovid et
+Stevan Little, le créateur de Moose.
 
